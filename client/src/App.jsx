@@ -9,7 +9,7 @@ import Header from './components/Header'
 
 export default function App() {
   return <BrowserRouter>
-  <Header/>  {/*Hear the header is added outside the "Routes because we want this Header to apply for all the pages*/}
+  <Header/>  {/*Here the header is added outside the "Routes because we want this Header to apply for all the pages*/}
   <Routes>
     <Route path='/' element={<Home />} />
     <Route path='/sign-in' element={<SignIn />} />
